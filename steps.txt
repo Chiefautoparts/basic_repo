@@ -1,0 +1,15 @@
+mkdir basic_repo
+(then created repo on github under the same name basic_repo)
+cd basic_repo
+git init
+touch index.html style.css ReadMe.md
+atom .
+(added some stuff to each file)
+git add .
+git commit -m "added stuff to files"
+git push origin master
+(added some different stuff to files)
+git status
+git add .
+git commit -m  "added different stuff"
+git push origin master
